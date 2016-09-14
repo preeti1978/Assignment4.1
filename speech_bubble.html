@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+/*The main bubble of speech*/
+p.speech {
+  position: absolute;
+left: 107px;
+
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: aqua;
+ /* border: 8px solid #666;*/
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  
+}
+
+
+/*The pointer of speech bubble
+a table with differently colored borders. Only right colored border is colored aqua*/
+.differently-colored-borders{
+  position: absolute;
+  left:1px;
+top:30px;
+  color: aqua;
+  width: 0px;
+  height: 0px;
+  border-left:20px solid white;
+  border-right:90px solid aqua;
+  border-top:20px solid white;
+  border-bottom:20px solid white; 
+ 
+}
+
+</style>
+</head>
+<body>
+<p class="speech">&nbsp;</p>
+<p class="differently-colored-borders"></p>
+</body>
+</html>
